@@ -1,0 +1,82 @@
+.new_blog_home_button {
+  position: fixed;
+  top: 150px;
+  font-size: 50px;
+  left: 38px;
+  width: 80px;
+  height: 70px;
+  background: #e9e9e9;
+  border-radius: 20px;
+}
+
+.new_blog_done_button {
+  position: fixed;
+  top: 260px;
+  left: 38px;
+  width: 80px;
+  height: 70px;
+  font-size: 50px;
+  background: #e9e9e9;
+  border-radius: 20px;
+}
+
+.post_container {
+  position: absolute;
+  width: 979px;
+  height: 575px;
+  background: #e9e9e9;
+  top: 160px;
+  left: 226px;
+}
+
+.rectangle2 {
+  position: absolute;
+  width: 836px;
+  height: 35px;
+  background: #d9d9d9;
+  padding-left: 122px;
+}
+
+.rectangle2 > button {
+  font-size: 22px;
+  margin-left: 20px;
+  border: 0px;
+  background: #d9d9d9;
+  margin-top: 5px;
+}
+
+.blog_title {
+  position: absolute;
+  top: 71px;
+  left: 299px;
+  width: 375px;
+  height: 60px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+  border: none;
+  text-align: center;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.blog_textarea {
+  position: absolute;
+  top: 157px;
+  left: 30px;
+  width: 919px;
+  height: 423px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: justify;
+  color: #767676;
+}
